@@ -22,8 +22,8 @@
                     <h1 class="text">Welcome to <span class="text-warning">Make a Note</span> App</h1>
                 </div>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success bg-warning text-black" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search_box">
+                    <button class="btn btn-outline-success bg-warning text-black" type="submit" id="search_btn">Search</button>
                 </form>
             </div>
         </div>
@@ -33,18 +33,18 @@
     <div class="bg" style="min-height: 100vh;">
         <div id="alert"></div>
         <div class="form-floating p-5">
-            <h3 class="text">Type your notes here and save it...</h3>
             <h5 class="text py-2">Title of the Notes</h5>
             <input type="text" class="w-100" id="title">
             <h5 class="text py-2">Content of the Notes</h5>
             <textarea class="form-control text-black" style="height: 200px;" id="content"></textarea>
             <button type="button" class="btn btn-warning my-4 w-100" id="save_btn">Save Your Notes</button>
+            <button type="button" class="btn btn-warning my-4 w-100" id="update_btn">Update Your Notes</button>
         </div>
 
         <div class="p-5">
             <div class="text">
                 <h3>Your Notes:</h3>
-                <h4>Save notes to view....</h4>
+                <h4 id="display_save">Save notes to view....</h4>
             </div>
             <div id="notes" class="d-flex flex-wrap"></div>
         </div>
