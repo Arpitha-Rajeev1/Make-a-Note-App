@@ -1,2 +1,6 @@
 # Make-a-Note-App
-This project allows user to create notes and save it, edit after creating and delete. This uses vanilla JS, HTML5, Bootstrap5 and has many other features.
+Here is a simple project using HTML5, Bootstrap5, Vanilla JavaScript ES6.
+#javascript #html #project #bootstrap5 #coding
+This project uses the following JS concepts:
+DOM Manipulation, LocalStorage, Functions (Hoisting), Event Handling, Arrays, Regular Expressions, and String operations.
+The project is to create notes along with the title and content entered by the users. Each saved note comes with a feature of Edit Notes, Delete Notes, Mark as important, Switching between dark and light modes and we can search for a particular keyword in the bunch of notes saved.
